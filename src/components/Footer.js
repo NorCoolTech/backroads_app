@@ -1,5 +1,5 @@
 import React from "react";
-import { pageLinks, sosicalLinks } from "../data";
+import { sosicalLinks } from "../data";
 import PageLinks from "./PageLinks";
 import SocialLink from "./SocialLink";
 
