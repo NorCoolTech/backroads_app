@@ -550,6 +550,7 @@ Navbar
 }
 
 .nav-toggle {
+  display: block;
   background: transparent;
   border: none;
   outline: none;
@@ -588,7 +589,14 @@ Navbar
 }
 
 .show-links {
-  height: 280px;
+  height: auto;
+  position: absolute;
+  width: 100%;
+  top: 4rem;
+  left: 0;
+  background-color: var(--clr-white);
+  box-shadow: var(--dark-shadow);
+  z-index: 3;
 }
 
 /* nav at bigger screen size */
